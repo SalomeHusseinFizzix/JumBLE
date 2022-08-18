@@ -3,18 +3,7 @@
 #include <SPI.h>
 #include <Adafruit_LSM9DS0.h>
 #include <Adafruit_Sensor.h>
-/*
-  LilyPad Vibe Board: Button Feedback
-  Written by: Ho Yun "Bobby" Chan
-  @ SparkFun Electronics
-  Date: 1/14/2019
-  https://www.sparkfun.com/products/11008
 
-  The main code checks for a button press. If there is a button press,
-  the Arduino turns on the LilyPad Vibe Board for haptic feedback.
-  For a visual cue, the LED will turn on too. If not, the LED and
-  motor will remain off.
-*/
 
 const int motorPin1 = 2;     // motor connected to D2
 const int motorPin2 = 3; 
